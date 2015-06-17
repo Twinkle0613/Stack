@@ -1,0 +1,46 @@
+---
+:source:
+  :path: test
+  :file: test_Stack.c
+:successes:
+- :test: test_stackCreate_Should_return_head_and_tail_equal_NULL
+  :line: 18
+  :message: ''
+- :test: test_stackElementCreate_should_equal_NOT_NULL
+  :line: 42
+  :message: ''
+- :test: test_stackAdd_should_add_Element_to_Stack
+  :line: 69
+  :message: ''
+- :test: test_stackRemove_should_return_the_value_inside_the_stack
+  :line: 116
+  :message: ''
+- :test: test_stackAdd_the_Stack_is_NULL
+  :line: 154
+  :message: ''
+- :test: test_stackAdd_the_element_is_NULL
+  :line: 166
+  :message: ''
+- :test: test_stackRemove_the_Stack_is_NULL
+  :line: 187
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 7
+  :passed: 7
+  :failed: 0
+  :ignored: 0
+:stdout:
+- "[4],[4]"
+- "[5],[4]"
+- "[4],[4]"
+- "[5],[4]"
+- remove = 5
+- remove = 4
+- ERROR:The Stack is Empty
+- ERROR:The Stack is NULL
+- "[4],[4]"
+- ERROR:The Stack Element is NULL
+- ERROR:The Stack is NULL
+- ''
